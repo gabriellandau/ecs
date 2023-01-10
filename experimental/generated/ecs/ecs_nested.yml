@@ -3936,6 +3936,10 @@ event:
       type: keyword
     event.category:
       allowed_values:
+      - description: An API call performed by a process or entity.
+        expected_event_types:
+        - info
+        name: api
       - description: Events in this category are related to the challenge and response
           process in which credentials are supplied and verified to allow the creation
           of a session. Common sources for these logs are Windows event logs and ssh

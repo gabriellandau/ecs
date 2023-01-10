@@ -33,6 +33,8 @@ Thanks, you're awesome :-) -->
 
 #### Added
 
+* Adding `api` option for `event.catgeory`.
+
 #### Improvements
 
 #### Deprecated

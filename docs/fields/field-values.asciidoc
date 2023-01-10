@@ -132,6 +132,7 @@ This field is an array. This will allow proper categorization of some events tha
 
 *Allowed Values*
 
+* <<ecs-event-category-api,api>>
 * <<ecs-event-category-authentication,authentication>>
 * <<ecs-event-category-configuration,configuration>>
 * <<ecs-event-category-database,database>>
@@ -150,6 +151,18 @@ This field is an array. This will allow proper categorization of some events tha
 * <<ecs-event-category-threat,threat>>
 * <<ecs-event-category-vulnerability,vulnerability>>
 * <<ecs-event-category-web,web>>
+
+[float]
+[[ecs-event-category-api]]
+==== api
+
+An API call performed by a process or entity.
+
+
+*Expected event types for category api:*
+
+info
+
 
 [float]
 [[ecs-event-category-authentication]]

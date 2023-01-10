@@ -156,6 +156,11 @@
       normalize:
         - array
       allowed_values:
+        - name: api
+          description: >
+            An API call performed by a process or entity.
+          expected_event_types:
+            - info
         - name: authentication
           description: >
             Events in this category are related to the challenge and response process
